@@ -1,7 +1,7 @@
 import Container from "@/components/Container"
 export default function Features() {
   return (
-    <section className="py-32 bg-white">
+    <section id="features" className="py-32 bg-white">
 
       <Container>
       <div className="max-w-6xl mx-auto px-6">

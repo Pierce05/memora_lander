@@ -1,7 +1,7 @@
 import Container from "@/components/Container"
 export default function Product() {
   return (
-    <section className="py-32">
+    <section id="product" className="py-32">
 
       <Container>
       <div className="max-w-5xl mx-auto text-center px-6">

@@ -2,7 +2,7 @@ import Container from "@/components/Container"
 
 export default function Hero() {
   return (
-    <section className="relative py-32 bg-black text-white overflow-hidden">
+    <section id ="hero" className="relative py-32 bg-black text-white overflow-hidden">
 
       {/* Gradient Glow */}
       <div className="absolute inset-0 flex justify-center pointer-events-none">

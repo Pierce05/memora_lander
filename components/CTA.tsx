@@ -1,7 +1,7 @@
 import Container from "@/components/Container"
 export default function CTA() {
   return (
-    <section className="py-32 bg-black text-white">
+    <section id="cta" className="py-32 bg-black text-white">
         <Container>
       <div className="max-w-4xl mx-auto text-center px-6">
 

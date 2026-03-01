@@ -8,9 +8,9 @@ export default function Navbar() {
         </div>
 
         <div className="hidden md:flex gap-8 text-sm text-gray-600">
-          <a href="#">Features</a>
-          <a href="#">Product</a>
-          <a href="#">About</a>
+          <a href="#features">Features</a>
+          <a href="#product">Product</a>
+          <a href="#cta">About</a>
         </div>
 
         <button className="bg-[#FF5C8A] text-white px-4 py-2 rounded-lg">

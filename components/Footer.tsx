@@ -1,7 +1,7 @@
 import Container from "@/components/Container"
 export default function Footer() {
   return (
-    <footer className="bg-black text-gray-400 py-16">
+    <footer className="bg-black text-gray-400 py-24 border-t border-gray-800">
         <Container>
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-12">
 
