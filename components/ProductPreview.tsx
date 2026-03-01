@@ -1,7 +1,9 @@
+import Container from "@/components/Container"
 export default function ProductPreview() {
   return (
     <section className="py-32 bg-black text-white">
 
+      <Container>
       <div className="max-w-6xl mx-auto px-6">
 
         <div className="text-center mb-20">
@@ -94,6 +96,7 @@ export default function ProductPreview() {
         </div>
 
       </div>
+      </Container>
 
     </section>
   )

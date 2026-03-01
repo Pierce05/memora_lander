@@ -1,7 +1,9 @@
+import Container from "@/components/Container"
 export default function Features() {
   return (
     <section className="py-32 bg-white">
 
+      <Container>
       <div className="max-w-6xl mx-auto px-6">
 
         <div className="text-center mb-20">
@@ -17,7 +19,7 @@ export default function Features() {
 
         <div className="grid md:grid-cols-2 gap-10">
 
-          <div className="p-8 bg-gray-50 rounded-xl">
+          <div className="p-8 bg-gray-50 hover:shadow-lg transition rounded-xl">
             <h3 className="text-xl font-semibold">
               Memory Capture
             </h3>
@@ -28,7 +30,7 @@ export default function Features() {
             </p>
           </div>
 
-          <div className="p-8 bg-gray-50 rounded-xl">
+          <div className="p-8 bg-gray-50 hover:shadow-lg transition rounded-xl">
             <h3 className="text-xl font-semibold">
               People Profiles
             </h3>
@@ -39,7 +41,7 @@ export default function Features() {
             </p>
           </div>
 
-          <div className="p-8 bg-gray-50 rounded-xl">
+          <div className="p-8 bg-gray-50 hover:shadow-lg transition rounded-xl">
             <h3 className="text-xl font-semibold">
               Relationship Graph
             </h3>
@@ -50,7 +52,7 @@ export default function Features() {
             </p>
           </div>
 
-          <div className="p-8 bg-gray-50 rounded-xl">
+          <div className="p-8 bg-gray-50 hover:shadow-lg transition rounded-xl">
             <h3 className="text-xl font-semibold">
               Conversation Context
             </h3>
@@ -64,6 +66,7 @@ export default function Features() {
         </div>
 
       </div>
+      </Container>
 
     </section>
   )
